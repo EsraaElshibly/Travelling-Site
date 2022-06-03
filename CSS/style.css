@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+  
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+  
+a {text-decoration: none}
+
+/*Start navbar*/
+.navbar
+{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.navbar .logo .navbar-brand img {
+    height: 60%;
+    mix-blend-mode: multiply;
+}
+
+.navbar .help-link {padding-top: 10px;}
+
+.navbar .container .row form{margin-top: 40px;}
+
+.navbar .container .row form .btn {
+    margin-left: 30px;
+    height: 40px ;
+    width: 200px;
+    padding: 3px 7px ;
+    border-color: rgb(214, 211, 211);
+}
+
+/* End Navbar */
+
+/* Start header */
+.btn-space {margin-right: 16px;}
+
+header .btn-group a i {padding-right: 7px ;}
+/* End header */
+
+/* Start Style for reservatin Form */
+.reservation {
+    background-image: url('https://media.audleytravel.com/-/media/images/home/homepage/hero-images/countries/471945713_greece_santorini_2400x800.webp?q=79&w=1366&h=455');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 700px){
+    .reservation {background-image: none !important;}
+    .reservation h2 {display: none;}
+    .reservation {background-color: #0b1d4b;}
+}
+
+.reservation h2 {
+    font-size: 70px;
+    color: rgb(63, 31, 153);
+    margin-bottom: 20px;
+    padding-top: 70px;
+}
+
+.reserv-form {
+    background-color: #0b1d4b;
+    padding: 30px;
+    width: 100%;
+}
+
+.reserv-form .space, .input-group label {margin-top: 15px;}
+
+.reserv-form .space .inp-small {font-size: 12px;}
+
+.input-group {display: flex;}
+
+input, label {display:block}
+
+label{color: white;}
+
+/* Style for Drop down box */
+.dropdown-menu {
+    width: 35%;
+    padding: 5px 18px;
+}
+
+.input-group i {
+    color: #0770e3;
+}
+
+/* style for num in drop down box */
+.input-group .sec-num span {padding: 0px 10px;}
+
+.input-group .sec-num p {margin-top: 15px;}
+
+.input-group .small-txt {font-size: 12px; color: rgb(173, 171, 171); }
+
+/* Style for Button for search */
+.search-btn {
+    background-color: rgb(52, 147, 160);
+    color: white;
+    font-size: 22px;
+    padding: 8px 12px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+
+/* End Style for reservatin Form */
+
+/* Start Section for Text and Image */
+.travel-des {margin: 70px 0px;}
+
+.travel-des section .sec{
+    display: flex;
+    align-content: center ;
+    justify-content: space-around ;
+    margin-bottom: 23px ;
+}
+/* End Section for Text and Image */
+
+/* Start Deals travelling */
+.travel-deal .deal-heading p {margin-bottom: 60px;}
+
+.travel-deal div .box {
+    /* border: 1px solid gainsboro; */
+    border-radius: 2%;
+    margin-bottom: 5%;
+    box-shadow: 4px 4px 4px 4px rgb(250, 249, 246);
+}
+
+.travel-deal div .box:hover {
+    box-shadow: 4px 4px 4px 4px rgb(241, 240, 240);
+    transition: all 0.5 ease-in-out;
+}
+
+.cover-deal-img img{
+    width: 100%;
+    height: 40%;
+    padding: 1px ;
+    padding-bottom: 10px;
+}
+
+.travel-deal .deal-sec .deal-info {padding-left: 20px ;}
+
+.small-img-deal {
+    width: 50px;
+    height: 30px;
+    padding-right: 20px;
+}
+
+.travel-deal div .box button a, .travel-deal div .box button a:hover, .travel-deal .deal-heading button a, .travel-deal .deal-heading button a:hover{
+    color: #0770e3;
+}
+
+.travel-deal div .box button i {
+    padding-left: 4px;
+    color: #0770e3;
+}
+
+.travel-deal div .box .right {
+    color: green;
+    padding-right: 9px;
+}
+/* End Deals travelling */
+
+/* Start section for covid map */
+.covid-map {margin: 100px 0px;}
+
+.covid-map .container .row {background-color: rgb(231, 240, 243); border-radius: 2%;}
+
+.covid-map .map-info { padding: 20px 0px 40px 70px;}
+
+.covid-map .map-info h2 {font-size: 70px;}
+
+.covid-map .map-img img {
+    width: 98%;
+    height: 100%;
+}
+
+.covid-map .map-info button {margin-left: 0%;}
+
+/* End section for cocid map */
+
+/* Start section for dropdowns */
+.drops{margin-bottom: 100px;}
+
+.drops .drops-btn {
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 20px 0px;
+    margin-left: 0px;
+}
+
+.according
+{
+    width: 100% ;
+    padding: 25px ;
+    text-align: left ;
+    color: #444 ;
+    font-size: 17px ;
+    cursor: pointer ;
+    transition: 0.3s ;
+    border-top: 1px solid rgb(192, 191, 191);
+    border-bottom: 1px solid rgb(192, 191, 191);
+}
+
+.according i {color: #0770e3; padding-right: 10px;}
+
+.dis
+{
+    display: none ;
+    background-color: white ;
+    box-shadow: 4px 4px 4px 4px rgb(228, 228, 225);
+    overflow: hidden ;
+    padding: 20px 30px ;
+}
+
+.dis li {margin-left: 40px;}
+.drop-icon {float: right;}
+.floating{overflow: hidden;}
+/* End section for dropdowns */
+
+/* Start Section for cheap flight */
+.events {
+    background-color: rgb(231, 240, 243);
+    margin-bottom: 100px;
+}
+
+.events .event-header h2 {padding-top: 40px }
+.events .event-header p {padding: 20px 0px;}
+.events .row .event-box .event-sec {text-align: center;}
+
+.events .row .event-box .event-sec .event-img img {
+    width: 190px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.events .row .event-box .event-sec .event-info p {
+    padding: 10px 0px;
+    color: rgb(138, 136, 136);
+}
+
+/* End Section for cheap flight */
+
+/* Start Planning Section */
+.plane-des p {
+    margin:24px 0px 50px 0px;
+    font-size: 20px ;
+}
+
+.plane-des .sec img {padding-right: 20px;}
+/* End Planning Section */
+
+/* Start Form address */
+.form-add {margin: 100px 0px;}
+
+.form-add .row {box-shadow: 4px 4px 4px 4px gainsboro;}
+
+.form-add .form-info {padding: 20px 30px; line-height: 2.4em; padding-right: 150px;}
+
+.form-add .form-info .input-group input {margin-right: 10px; padding: 12px; font-size: 18px;}
+
+.form-add .form-img img {width: 100%; padding-right: 0px;}
+/* End Form address */
+
+/* Start Countries for Travelling  */
+.travel-count{
+    margin: 70px 0px;
+}
+
+.travel-count .travel-heading p {margin-top: 30px; font-size: 23px;}
+
+.travel-count .btn-group button{
+    border-radius: 30px;
+    width: 170px;
+    padding: 10px;
+    margin: 30px 18px 30px 0px;
+    color: black;
+    background-color: white;
+}
+
+.travel-count .btn-group button:hover, .travel-count .btn-group .active {
+    background-color: #0770e3;
+    color: white;
+}
+
+.travel-count .row ul li {
+    list-style: none;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+.travel-count .row ul li a {text-decoration: underline;}
+
+/* End Countries for Travelling  */
+
+/* Start Style for Footer */
+footer { background-color: #0b1d4b; padding-bottom: 20px;}
+
+footer ul .active {
+    color: orangered; 
+    padding: 90px 0px 18px 0px; 
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+footer ul li {
+    font-size: 22px;
+    list-style: none;
+    padding-bottom: 7px;
+}
+
+footer ul li a {color: white;}
+
+footer ul li a:hover {
+    color:  white;
+    text-decoration: underline;
+}
+/* End Style for Footer */
