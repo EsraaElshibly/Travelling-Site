@@ -35,7 +35,8 @@ a {text-decoration: none}
 }
 
 @media (max-width: 700px){
-    .navbar .container .row form .btn {margin: 0px;}
+    .navbar .container .row form button, .navbar .container .row form a {display: none;}
+    .navbar .logo .navbar-brand img{height: 100%; margin-top: -20%; margin-left: 30%;}
 }
 
 /* End Navbar */
