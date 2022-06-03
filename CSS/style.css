@@ -118,12 +118,9 @@ label{color: white;}
 /* Start Section for Text and Image */
 .travel-des {margin: 70px 0px;}
 
-.travel-des section .sec{
-    display: flex;
-    align-content: center ;
-    justify-content: space-around ;
-    margin-bottom: 23px ;
-}
+.travel-des section .sec{margin-bottom: 23px ;}
+
+.travel-des section .sec img{padding-right: 15px ;}
 /* End Section for Text and Image */
 
 /* Start Deals travelling */
